@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipkart Clone </title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navigation bar start -->
+
+    <div class="hero_container">
+      <div class="inner-container">
+        <div class="leftside_div"></div>
+        <!-- main nav bar -->
+        <div class="nav-wrapper">
+          <!-- flipkart logo + link -->
+
+          <div class="hero_logo">
+            <div class="logo">
+              <a href="#">
+                <img src="img/flipkart-plus_8d85f4.png" alt="logo" />
+              </a>
+              <a class="plus" href="#">
+                Explore
+                <span>Plus</span>
+                <img src="img/plus_aef861.png" alt="plus-logo" />
+              </a>
+            </div>
+          </div>
+
+          <!--  search bar start-->
+
+          <div class="hero_search">
+            <form class="form_wrapper">
+              <div class="form_inner">
+                <div class="input">
+                  <input
+                    type="text"
+                    placeholder="Search for products, brands and more"
+                    autocomplete="off"
+                  />
+                </div>
+                <button class="search_btn" type="submit">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!--  search bar end-->
+
+          <!-- log-in btn link start-->
+
+          <div class="hero_login">
+            <div class="login_wrapper">
+              <div class="login">
+                <div>
+                  <a href="#">Login</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- log-in btn link end -->
+
+          <!-- dropdown menu start -->
+
+          <div class="hero_dropdown">
+            <div class="dropdown_inner">
+              <div class="dropdown">
+                <a
+                  class="btn dropdown-toggle"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  More
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <i class="fas fa-bell"></i> Notification Preference</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <i class="fas fa-briefcase"></i> Sell On Flipkart</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <i class="fas fa-question-circle"></i> 24x7 Customer
+                      Care</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <i class="fas fa-ad"></i> Advertise</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <i class="fas fa-download"></i> Download App</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- dropdown menu end -->
+
+          <!-- cart link start -->
+
+          <div class="hero_cart">
+            <div class="hero_cart_inner">
+              <div class="cart_items">
+                <a href="#">
+                  <i class="fas fa-cart-shopping"></i>
+                  <span>Cart</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- cart link end -->
+
+        </div>
+        <div class="rightside_div"></div>
+      </div>
+    </div>
+
+    <!-- Quick menu start  -->
+
+    <div class="hero_quick_menu">
+      <div class="quick_menu_inner">
+        <div class="quick_menu">
+          
+          <div class="menu_items">
+            <a href="#">
+              <div class="menu_img">
+                <img src="img/item-1.png" alt="image" />
+              </div>
+              <div class="menu_text">Top Offers</div>
+            </a>
+          </div>
+          
+          <div class="menu_items">
+            <a href="#">
+              <div class="menu_img">
+                <img src="img/item-2.png" alt="image" />
+              </div>
+              <div class="menu_text">Grocery</div>
+            </a>
+          </div>
+          
+          <div class="menu_items">
+            <a href="#">
+              <div class="menu_img">
+                <img src="img/item-3.png" alt="image" />
+              </div>
+              <div class="menu_text">Mobiles</div>
+            </a>
+          </div>
+          
+
+          <div class="menu_items">
+            <a href="#">
+              <div class="menu_img">
+                <img src="img/item-4.png" alt="image" />
+              </div>
+
+
+              <div class="dropdown">
+                <a
+                  class="btn dropdown-toggle"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Fashion
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="#"> Kids</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Men</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Women</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Winter</a>
+                  </li>
+                </ul>
+              </div>
+
+            </a>
+          </div>
+          
+          <div class="menu_items">
+            <a href="#">
+              <div class="menu_img">
+                <img src="img/item-5.png" alt="image" />
+              </div>
+              <div class="dropdown">
+                <a
+                  class="btn dropdown-toggle"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Electronics
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="#"> Cameras & Accessories</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Gaming</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Powerbank</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Smart wearables</a>
+                  </li>
+                </ul>
+              </div>
+            </a>
+          </div>
+          
+          
+          <div class="menu_items">
+            <a href="#">
+              <div class="menu_img">
+                <img src="img/item-6.jpg" alt="image" />
+              </div>
+              <div class="dropdown">
+                <a
+                  class="btn dropdown-toggle"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Home
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="#"> Home Decor</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Kids Furniture</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Pet</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Tools</a>
+                  </li>
+                </ul>
+              </div>
+            </a>
+          </div>
+          
+          
+          <div class="menu_items">
+            <a href="#">
+              <div class="menu_img">
+                <img src="img/item-7.png" alt="image" />
+              </div>
+              <div class="dropdown">
+                <a
+                  class="btn dropdown-toggle"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Appliances
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="#"> Televisions</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Washing Machines</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Refridgerator</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Flipkart Benefits</a>
+                  </li>
+                </ul>
+              </div>
+            </a>
+          </div>
+          
+          
+          <div class="menu_items">
+            <a href="#">
+              <div class="menu_img">
+                <img src="img/item-8.png" alt="image" />
+              </div>
+              <div class="menu_text">Travel</div>
+            </a>
+          </div>
+          
+          
+          <div class="menu_items">
+            <a href="#">
+              <div class="menu_img">
+                <img src="img/item-9.png" alt="image" />
+              </div>
+              <div class="dropdown">
+                <a
+                  class="btn dropdown-toggle"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Beauty, Toys & More
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="#"> Men's Grooming</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Food & Drinks</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Baby Care</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Sports & Fitness</a>
+                  </li>
+                </ul>
+              </div>
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- quick menu end  -->
+
+    <!-- card items Row-1 -->
+    <section>
+      <div class="hero_item_cards">
+        <div class="item_cards_left">
+          <div class="top_section">
+            <div>
+              <h3 class="text_deals">Deals of the Day</h3>
+            </div>
+            <div class="time_section">
+              <div class="time_icon">
+                <i class="fas fa-clock"></i>
+              </div>
+  
+              <div class="text_time">
+                <span>10:04:05 Left</span>
+              </div>
+            </div>
+            <div class="btn_viewAll">
+              <a href="#">VIEW ALL</a>
+            </div>
+          </div>
+
+          <!-- items  -->
+          <div class="item_list">
+            <a href="#" >
+          <div class="card" ">
+            <img class="card-img-top" src="img/bags.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">Bags & Luggage</p>
+              <p class="card-text">Upto 70% Off</p>
+              <p>Grab the deal</p>
+            </div>
+          </div>
+        </a>
+        <a href="#" >
+          <div class="card" ">
+            <img class="card-img-top" src="img/shoes.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">Sparx,Bruton & More</p>
+              <p class="card-text">30-70% Off</p>
+              <p>Casual Shoes For Men's</p>
+            </div>
+          </div>
+        </a>
+        <a href="#" >
+          <div class="card" ">
+            <img class="card-img-top" src="img/phone_cover.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">Plain Case Covers</p>
+              <p class="card-text">20-70% Off</p>
+              <p>For All Top Models</p>
+            </div>
+          </div>
+        </a>
+        <a href="#" >
+          <div class="card" ">
+            <img class="card-img-top" src="img/food.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">Ray-Ban IDEE...</p>
+              <p class="card-text">Upto 65-70% Off</p>
+              <p>Tea, Breakfast, Nuts & More</p>
+            </div>
+          </div>
+        </a>
+        <a href="#" >
+          <div class="card" ">
+            <img class="card-img-top" src="img/headphone.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">Headphone Over Ear</p>
+              <p class="card-text">From ₹ 799 </p>
+              <p>Wired/Wireless Range</p>
+            </div>
+          </div>
+        </a>
+        <a href="#" >
+          <div class="card" ">
+            <img class="card-img-top" src="img/shoes3.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">Sparx,Bruton & More</p>
+              <p class="card-text">30-70% Off</p>
+              <p>Casual Shoes For Men's</p>
+            </div>
+          </div>
+        </a>
+        <a href="#" >
+          <div class="card" ">
+            <img class="card-img-top" src="img/watch.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">Titan, Casio, Fossil</p>
+              <p class="card-text">20-70% Off</p>
+              <p>Crazy Discount</p>
+            </div>
+          </div>
+        </a>
+        <a href="#" >
+          <div class="card" ">
+            <img class="card-img-top" src="img/phone_cover.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">Plain Case Covers</p>
+              <p class="card-text">20-70% Off</p>
+              <p>For All Top Models</p>
+            </div>
+          </div>
+        </a>
+        <a href="#" >
+          <div class="card" ">
+            <img class="card-img-top" src="img/food.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">Ray-Ban IDEE...</p>
+              <p class="card-text">Upto 65-70% Off</p>
+              <p>Tea, Breakfast, Nuts & More</p>
+            </div>
+          </div>
+        </a>
+        <a href="#" >
+          <div class="card" ">
+            <img class="card-img-top" src="img/headphone.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">Headphone Over Ear</p>
+              <p class="card-text">From ₹ 799 </p>
+              <p>Wired/Wireless Range</p>
+            </div>
+          </div>
+        </a>
+    
+
+<!-- Button scroll next_item   -->
+
+        <div class="btn_next">
+          <div class="btn_inner">
+            <i class="btn fas fa-chevron-right"></i>
+          </div>
+<!-- Button scroll next_item end  -->
+
+        </div>
+
+        </div>
+
+        </div>
+
+        <div class="advertise_right">
+          <img src="img/advertise.jpg" alt="image Advertise">
+        </div>
+      </div>
+    </section>
+    <!-- card item Row-1 end -->
+
+<!-- card items Row-2 Start -->
+
+<section>
+  <div class="hero_item_cards">
+    <div class="item_cards_right">
+      <div class="top_section">
+        <div>
+          <h3 class="text_deals">Top Deals Hurry Up !</h3>
+          <p>From ₹599</p>
+        </div>
+        
+        <div class="btn_viewAll">
+          <a href="#">VIEW ALL</a>
+        </div>
+      </div>
+
+      <!-- items  -->
+      <div class="item_list">
+        
+  
+    <a href="#" >
+      <div class="card" >
+        <img class="card-img-top" src="img/headphone1.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-title">Headphone Over Ear</p>
+          <p class="card-text">From ₹ 799 </p>
+          <p>Wired/Wireless Range</p>
+        </div>
+      </div>
+    </a>
+   
+
+    <a href="#" >
+      <div class="card" >
+        <img class="card-img-top" src="img/shoes3.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-title">Sparx,Bruton & More</p>
+          <p class="card-text">30-70% Off</p>
+          <p>Casual Shoes For Men's</p>
+        </div>
+      </div>
+    </a>
+
+ 
+    <a href="#" >
+      <div class="card" >
+        <img class="card-img-top" src="img/desktop.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-title">Best Selling Monitor</p>
+          <p class="card-text">30-70% Off</p>
+          <p>Best in Budget</p>
+        </div>
+      </div>
+    </a>
+    <a href="#" >
+      <div class="card" >
+        <img class="card-img-top" src="img/headphone.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-title">Headphone Over Ear</p>
+          <p class="card-text">From ₹ 799 </p>
+          <p>Wired/Wireless Range</p>
+        </div>
+      </div>
+    </a>
+    <a href="#" >
+      <div class="card" >
+        <img class="card-img-top" src="img/phone_cover.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-title">Plain Case Covers</p>
+          <p class="card-text">20-70% Off</p>
+          <p>For All Top Models</p>
+        </div>
+      </div>
+    </a>
+    <a href="#" >
+      <div class="card" >
+        <img class="card-img-top" src="img/headphone1.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-title">Headphone Over Ear</p>
+          <p class="card-text">From ₹ 799 </p>
+          <p>Wired/Wireless Range</p>
+        </div>
+      </div>
+    </a>
+    <a href="#" >
+      <div class="card" >
+        <img class="card-img-top" src="img/bags.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-title">Bags & Luggage</p>
+          <p class="card-text">Upto 70% Off</p>
+          <p>Grab the deal</p>
+        </div>
+      </div>
+    </a>
+    <a href="#" >
+      <div class="card" >
+        <img class="card-img-top" src="img/shoes.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-title">Sparx,Bruton & More</p>
+          <p class="card-text">30-70% Off</p>
+          <p>Casual Shoes For Men's</p>
+        </div>
+      </div>
+    </a>
+    
+    <a href="#" >
+      <div class="card" >
+        <img class="card-img-top" src="img/bags.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-title">Bags & Luggage</p>
+          <p class="card-text">Upto 70% Off</p>
+          <p>Grab the deal</p>
+        </div>
+      </div>
+    </a>
+
+    <!-- Button scroll next_item   -->
+
+    <div class="btn_next">
+      <div class="btn_inner">
+        <i class="btn fas fa-chevron-right"></i>
+      </div>
+<!-- Button scroll next_item end  -->
+    </div>
+
+  </div>  
+  </div>
+</section>
+
+
+
+<!-- card items Row-2 end -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> -->
+  </body>
+</html>
