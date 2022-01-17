@@ -19,6 +19,3 @@
 
 4)
 ![Screenshot from 2022-01-17 10-02-29](https://user-images.githubusercontent.com/97082607/149708476-c5d9fdeb-9323-4dfe-ac5b-5aa53a58ab97.png)
-
- 
-
